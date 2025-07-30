@@ -1,7 +1,12 @@
-# retail
-**ABSTRACT** 
+# retail  
+📝 **Abstract**    
 
-This project presents an in-store retail product detection system in real time utilizing YOLO object detection models trained with a custom, Roboflow-annotated dataset. The dataset consists of 1,122 images distributed in 475 product classes that were gathered from various platforms and augmented using methods of rotation, brightness change, and noise imposition. Various models of YOLO were tested and compared with each other and against other tested models, i.e., YOLOv8s, YOLOv8m, YOLOv8l, and YOLOv8L. Of these, YOLOv8L performed best with an accuracy of 0.689, recall of 0.534, mAP@50 of 0.603, and mAP@50-95 of 0.404. An application built using Streamlit enables users to import video files from which the frames are extracted at intervals for product detection. Identified products are displayed frame-wise with rolled-up summaries. The system provides a scalable automated retail shelf monitoring, inventory analytics, and checkout support solution through effective product recognition from video feeds.
+This Streamlit application provides an AI-powered solution for analyzing retail store videos to generate product availability summaries in 10-second time blocks. By leveraging the YOLO object detection model, the app detects and counts retail products from uploaded video footage. It segments the video into fixed time intervals and computes the average count of each product within each block. A summary table highlights products that require restocking based on their average appearance in frames. The application also visualizes detections per second and issues warnings for low-stock items. This tool is ideal for automating retail shelf monitoring and ensuring timely replenishment of inventory.  
+
+
+
+https://github.com/user-attachments/assets/8b05170b-25c8-438e-b8de-106f5fb38fc3
+
 
 **EXPLORATORY DATA ANALYSIS**
 
